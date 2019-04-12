@@ -4,16 +4,14 @@ html{
 header{
 	box-sizing: content-box;
 	width: 50%;
-	height: 100%;
-	padding: 20px 0 20px 10px;
-	text-transform: uppercase;
+	padding: auto;
 	margin: auto;
 	background-color: #123768;
 	background-image: url(index.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-family: arial;
 	font-size: 1em;
 }
@@ -27,23 +25,32 @@ header{
   	font-family: sans-serif;
   	font-size: 1em;
   	text-align: left;
-  	color: #ffff99;
+  	color: gold;
 }
 
 .side_nav{
  	box-sizing: border-box;
-
 	margin: 1em;
-  	padding: 1%;
+  	padding: 5px;
   	width: 20%;
-	float: right;
-
-  	background-color: #1f3354;
+	height: auto;
+	position: absolute;
+	top: 65px; right: 5px;
+  	background-color: #8CBAE8;
   	font-family: sans-serif;
   	font-size: 1em;
   	text-align: left;
-  	color: #ffff99;
-	border: solid black 2px;
+ 	border: solid black 2px;
+}
+
+.side_nav_item{
+	color: #1B548C;
+  	font-family: Arial;
+	text-decoration: none;
+}
+
+.side_nav_item:hover{
+	font-weight: bold;
 }
 
 .list-nav{
@@ -52,7 +59,6 @@ header{
 	padding: 1%;
 	width: 75%;
 	border: solid black 2px;
-	background-color: #283282;
 	list-style: none;
   	font-family: Arial;
 }
@@ -60,6 +66,7 @@ header{
 .list-nav-item{
 	color:#73d6d6;
 	text-decoration: none;
+	border: 2px white;
 }
 
 .list-nav-item:hover{
